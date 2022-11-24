@@ -8,22 +8,38 @@ body {
     min-height: 100vh;
     background: url("/assets/image/stage.png");
     background-size: cover ;
-    cursor: crosshair;
     text-align: center;
 }
 
 button{
     width: 15%;
     padding: 2.5vh;
+    margin: 5%;
     background: whitesmoke;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover{
+    color: aqua;
+    background: black;
+    border: none;
+    width: 15.2%;
+    height: auto;
 }
 
 a{
-    color: black;
+    color: #000;
     text-decoration: none;
     letter-spacing: 2px;
+    font-size: large;
+    transition: 0.5s;
 }
+
+a:hover{
+    color: whitesmoke;
+}
+
 
 hr{
     width: 20%;
