@@ -1,0 +1,30 @@
+*{
+    max-width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    overflow: hidden;
+    min-height: 100vh;
+    background: url("/assets/image/stage.png");
+    background-size: cover ;
+    cursor: crosshair;
+    text-align: center;
+}
+
+button{
+    width: 15%;
+    padding: 2.5vh;
+    background: whitesmoke;
+    cursor: pointer;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+hr{
+    width: 20%;
+}

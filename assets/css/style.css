@@ -1,14 +1,15 @@
 body {
     overflow: hidden;
     min-height: 100vh;
-    background: url("./image/stage.png");
+    background: url("/assets/image/stage.png");
+    background-size: cover ;
     cursor: crosshair;
 }
 
 .bubble {
     position: absolute;
     border-radius: 300px;
-    background: rgba(255, 166, 0, 0.6);
+    background-image: url("/assets/image/canard.png") ;
     opacity: 1;
     animation: anim 5s forwards;
     filter: hue-rotate(8deg);
