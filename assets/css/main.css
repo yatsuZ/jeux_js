@@ -8,24 +8,31 @@ body {
     min-height: 100vh;
     background: url("/assets/image/stage.png");
     background-size: cover ;
+    margin: 5%;
+}
+
+#main_menu{
+    display: flex;
+    gap: 8%;
+}
+
+#rules{
+    width: 20%;
+    text-align: center;
+}
+
+#menu{
+    width: 60%;
+    height: 30vh;
     text-align: center;
 }
 
 button{
-    width: 15%;
+    width: 19%;
     padding: 2.5vh;
     margin: 5%;
     background: whitesmoke;
     cursor: pointer;
-    transition: 0.5s;
-}
-
-button:hover{
-    color: aqua;
-    background: black;
-    border: none;
-    width: 15.2%;
-    height: auto;
 }
 
 a{
@@ -38,9 +45,4 @@ a{
 
 a:hover{
     color: whitesmoke;
-}
-
-
-hr{
-    width: 20%;
 }

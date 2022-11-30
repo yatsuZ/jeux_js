@@ -28,6 +28,12 @@ const bubbleMaker = () => {
             bubble.remove();
         })
 
+        document.addEventListener('keydown', function(event){
+            if (event.code === 'Space'){
+                window.location.href="./menu.html"
+            }
+        })
+
         setTimeout(() => {
             bubble.remove();
 
@@ -35,3 +41,4 @@ const bubbleMaker = () => {
 }
 
 setInterval(bubbleMaker, 2500);
+

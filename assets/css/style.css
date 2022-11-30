@@ -9,10 +9,10 @@ body {
 .bubble {
     position: absolute;
     border-radius: 300px;
-    background-image: url("/assets/image/canard.png") ;
+    background: url("/assets/image/canard.png") ;
+    background-size: cover;
     opacity: 1;
     animation: anim 5s forwards;
-    filter: hue-rotate(8deg);
 }
 
 @keyframes anim {
